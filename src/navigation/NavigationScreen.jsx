@@ -1,4 +1,4 @@
-import DetailScreen from "../screens/DetailScreen/Details";
+import DetailScreen from "../screens/DetailScreen/DetailScreen";
 import HomeScreen from "../screens/HomeScreen/HomeScreen";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
