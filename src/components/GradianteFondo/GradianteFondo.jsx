@@ -7,7 +7,7 @@ const GradianteFondo = ({ children }) => {
   return  (
   <View style={{ flex:1, }}>
     <LinearGradient 
-    colors={['red','blue','white']} 
+    colors={['black','white']} 
     style={{...StyleSheet.absoluteFillObject}}
     start={{x: 0.1, y: 0.1}}
     end={{x: 0.5, y: 0.7}}

@@ -22,7 +22,7 @@ const HomeScreen = () => {
       <View style={styles.contenedorCarousel}>
       <Carousel
         data={cine}
-        renderItem={({ item }) => <PosterMovie movie={item} borderRadius height={400} width={300}/>}
+        renderItem={({item}) => <PosterMovie movie={item} borderRadius height={400} width={300}/>}
         sliderWidth={windowsWidth}
         itemWidth={300}
       />
