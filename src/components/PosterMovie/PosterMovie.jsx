@@ -10,7 +10,7 @@ const PosterMovie = ({ movie, borderRadius,  height, width }) => {
   return (
     <TouchableOpacity style={{ marginHorizontal: 5, width:width, height:height}} 
     activeOpacity={0.5}
-    onPress={ () => navigation.navigate('DetailScreen', movie)} //El segundo argumento es lo que mando
+    onPress={() => navigation.navigate('DetailScreen', movie)} //El segundo argumento es lo que mando
     >
       <View style={styles.contenedorImagen}>
         <Image source={{ uri: urlImg }} style={{...styles.imagen, borderRadius: borderRadius && 20}} />
